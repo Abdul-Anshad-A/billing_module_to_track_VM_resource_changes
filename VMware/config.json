@@ -1,0 +1,12 @@
+[{
+	"node": "1",
+        "ip": "172.16.2.100",
+        "username": "username1",
+        "password": "p@$$w0rd2"
+},
+{
+	"node": "2",
+        "ip": "172.16.2.120",
+        "username": "username2",
+        "password": "p@$$w0rd2"
+}]

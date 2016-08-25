@@ -1,0 +1,15 @@
+[{
+	"node": "1",
+	"solus_db_ip": "172.16.1.10",
+	"solus_db_username": "username1",
+	"solus_db_password": "p@$$w0rd1",
+	"solus_database": "dev"
+},
+{
+        "node": "2",
+        "solus_db_ip": "172.16.1.20",
+        "solus_db_username": "username2",
+        "solus_db_password": "p@$$w0rd2",
+        "solus_database": "dev"
+}
+]
