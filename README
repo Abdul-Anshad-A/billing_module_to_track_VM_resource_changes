@@ -1,1 +1,16 @@
-Python script to track VM resource and configurations changes on VCenter and solusVM.
+Billing module to track VM resource and configurations changes on VCenter server and solusVM.
+
+
+Python script which connects to multiple instance of VCenter server and solusVM based on the inputs from "config.json", retrieves the VM configurations, stores it in a mysql database. periodically checks for VM confgiration changes and updates in the DB accordingly.
+
+Features:
+	- Can connect to multiple instances of VC and SolusVM
+	- Based on the number of VM's to process, it spawns multiple process which results in faster execution.
+	- VM resource history are maintained in a DB which can be used in future for analytics
+
+
+Some of the VM configurations are "vm name, hostname, power status, memory, cpu, os_type, nics, ip addresses, disk name, disk size and etc"
+
+VMware - makes use of pysphere SDK to retrieve VM info
+
+solusVM - VM info are read from the solusVM mySQL DB.
